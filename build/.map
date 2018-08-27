@@ -1,0 +1,1143 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+                              sd_fat_devoptab.o (devoptab_list)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+                              fs_utils.o (mkdir)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+                              sd_fat_devoptab.o (__errno)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o) (_impure_ptr)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o) (__locale_ctype_ptr)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+                              sd_fat_devoptab.o (memcpy)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+                              sd_fat_devoptab.o (memset)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+                              program.o (srand)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+                              fs_utils.o (snprintf)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strcasecmp)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+                              program.o (strcat)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+                              sd_fat_devoptab.o (strchr)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+                              sd_fat_devoptab.o (strcmp)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+                              sd_fat_devoptab.o (strcpy)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strlcpy)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+                              program.o (strlen)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strncasecmp)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o) (strncmp)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+                              sd_fat_devoptab.o (strncpy)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+                              fs_utils.o (strrchr)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+                              sd_fat_devoptab.o (strtok)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o) (__strtok_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strtol)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o) (_svfprintf_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+                              fs_utils.o (close)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+                              fs_utils.o (lseek)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+                              fs_utils.o (open)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+                              fs_utils.o (read)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+                              fs_utils.o (stat)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+                              program.o (time)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (_wcrtomb_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (_wcsrtombs_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (__set_ctype)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (_dtoa_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (_getenv_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (_localeconv_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (memchr)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o) (_Balloc)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o) (_wcsnrtombs_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o) (environ)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o) (__env_lock)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o) (memmove)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o) (_close_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o) (_gettimeofday_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o) (_lseek_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o) (_open_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o) (_read_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o) (_stat_r)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o) (__libc_lock_init)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o) (__release_handle)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (__udivdi3)
+/opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o) (__umoddi3)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 gol.o
+ .data          0x0000000000000000        0x0 gol.o
+ .bss           0x0000000000000000        0x0 gol.o
+ .text.advanceGeneration
+                0x0000000000000000      0x190 gol.o
+ .text.convertColor
+                0x0000000000000000       0x68 gol.o
+ .rodata.CSWTCH.109
+                0x0000000000000000       0x1c gol.o
+ .rodata.CSWTCH.110
+                0x0000000000000000       0x1c gol.o
+ .rodata.CSWTCH.111
+                0x0000000000000000       0x1c gol.o
+ .comment       0x0000000000000000       0x23 gol.o
+ .eh_frame      0x0000000000000000      0x12c gol.o
+ .gnu.attributes
+                0x0000000000000000       0x12 gol.o
+ .text          0x0000000000000000        0x0 draw.o
+ .data          0x0000000000000000        0x0 draw.o
+ .bss           0x0000000000000000        0x0 draw.o
+ .text.drawString
+                0x0000000000000000       0x80 draw.o
+ .text.drawPixel
+                0x0000000000000000       0x94 draw.o
+ .text.drawLine
+                0x0000000000000000      0x240 draw.o
+ .text.drawRect
+                0x0000000000000000       0xec draw.o
+ .text.drawCircleCircum
+                0x0000000000000000      0x5d8 draw.o
+ .text.drawCircle
+                0x0000000000000000      0x4d8 draw.o
+ .text.drawFillCircle
+                0x0000000000000000      0x270 draw.o
+ .rodata.drawFillCircle.cst4
+                0x0000000000000000        0x8 draw.o
+ .comment       0x0000000000000000       0x23 draw.o
+ .eh_frame      0x0000000000000000      0x3c4 draw.o
+ .gnu.attributes
+                0x0000000000000000       0x10 draw.o
+ .text          0x0000000000000000        0x0 pong.o
+ .data          0x0000000000000000        0x0 pong.o
+ .bss           0x0000000000000000        0x0 pong.o
+ .text.collisionBox
+                0x0000000000000000       0xc0 pong.o
+ .text.p1Move   0x0000000000000000       0xd4 pong.o
+ .text.p2Move   0x0000000000000000       0xd8 pong.o
+ .text.moveBall
+                0x0000000000000000       0xcc pong.o
+ .text.checkCollision
+                0x0000000000000000      0x3d0 pong.o
+ .text.checkWin
+                0x0000000000000000       0xb4 pong.o
+ .text.renderBall
+                0x0000000000000000       0x84 pong.o
+ .text.resetRenderFlags
+                0x0000000000000000       0x20 pong.o
+ .text.updatePosition
+                0x0000000000000000       0x34 pong.o
+ .text.reset    0x0000000000000000       0x6c pong.o
+ .text.renderScore
+                0x0000000000000000       0xa4 pong.o
+ .text.wait     0x0000000000000000        0x4 pong.o
+ .text.renderWin
+                0x0000000000000000       0xb8 pong.o
+ .text.renderInitialPlayers
+                0x0000000000000000       0xf0 pong.o
+ .text.renderReset
+                0x0000000000000000       0x40 pong.o
+ .text.renderP1
+                0x0000000000000000      0x1e0 pong.o
+ .text.renderP2
+                0x0000000000000000      0x1e0 pong.o
+ .text.render   0x0000000000000000      0x190 pong.o
+ .rodata.renderInitialPlayers.str1.4
+                0x0000000000000000        0xf pong.o
+ .rodata.renderScore.str1.4
+                0x0000000000000000        0x3 pong.o
+ .rodata.renderWin.str1.4
+                0x0000000000000000       0x1f pong.o
+ .comment       0x0000000000000000       0x23 pong.o
+ .eh_frame      0x0000000000000000      0x24c pong.o
+ .text          0x0000000000000000        0x0 program.o
+ .data          0x0000000000000000        0x0 program.o
+ .bss           0x0000000000000000        0x0 program.o
+ .text.appendIfButtonPressed
+                0x0000000000000000       0x70 program.o
+ .text.printButtons
+                0x0000000000000000      0x568 program.o
+ .rodata.printButtons.str1.4
+                0x0000000000000000       0x47 program.o
+ .comment       0x0000000000000000       0x23 program.o
+ .eh_frame      0x0000000000000000       0xa0 program.o
+ .gnu.attributes
+                0x0000000000000000       0x10 program.o
+ .text          0x0000000000000000        0x0 ax_functions.o
+ .data          0x0000000000000000       0x50 ax_functions.o
+ .bss           0x0000000000000000        0x0 ax_functions.o
+ .text.InitAXFunctionPointers
+                0x0000000000000000      0xaa8 ax_functions.o
+ .rodata.InitAXFunctionPointers.str1.4
+                0x0000000000000000      0x402 ax_functions.o
+ .comment       0x0000000000000000       0x23 ax_functions.o
+ .eh_frame      0x0000000000000000       0x4c ax_functions.o
+ .text          0x0000000000000000        0x0 os_functions.o
+ .bss           0x0000000000000000        0x0 os_functions.o
+ .comment       0x0000000000000000       0x23 os_functions.o
+ .eh_frame      0x0000000000000000       0x50 os_functions.o
+ .text          0x0000000000000000        0x0 vpad_functions.o
+ .bss           0x0000000000000000        0x0 vpad_functions.o
+ .comment       0x0000000000000000       0x23 vpad_functions.o
+ .eh_frame      0x0000000000000000       0x48 vpad_functions.o
+ .text          0x0000000000000000        0x0 gx2_functions.o
+ .data          0x0000000000000000       0xf8 gx2_functions.o
+ .bss           0x0000000000000000        0x0 gx2_functions.o
+ .text.InitGX2FunctionPointers
+                0x0000000000000000     0x222c gx2_functions.o
+ .rodata.InitGX2FunctionPointers.str1.4
+                0x0000000000000000      0xdd2 gx2_functions.o
+ .comment       0x0000000000000000       0x23 gx2_functions.o
+ .eh_frame      0x0000000000000000       0x4c gx2_functions.o
+ .text          0x0000000000000000        0x0 sys_functions.o
+ .data          0x0000000000000000        0xc sys_functions.o
+ .bss           0x0000000000000000        0x0 sys_functions.o
+ .text.InitSysFunctionPointers
+                0x0000000000000000      0x1e8 sys_functions.o
+ .rodata.InitSysFunctionPointers.str1.4
+                0x0000000000000000       0xcb sys_functions.o
+ .comment       0x0000000000000000       0x23 sys_functions.o
+ .eh_frame      0x0000000000000000       0x48 sys_functions.o
+ .text          0x0000000000000000        0x0 fs_functions.o
+ .data          0x0000000000000000       0x98 fs_functions.o
+ .bss           0x0000000000000000        0x0 fs_functions.o
+ .text.InitFSFunctionPointers
+                0x0000000000000000     0x14fc fs_functions.o
+ .rodata.InitFSFunctionPointers.str1.4
+                0x0000000000000000      0x6dd fs_functions.o
+ .comment       0x0000000000000000       0x23 fs_functions.o
+ .eh_frame      0x0000000000000000       0x50 fs_functions.o
+ .text          0x0000000000000000        0x0 socket_functions.o
+ .data          0x0000000000000000       0x34 socket_functions.o
+ .bss           0x0000000000000000        0x0 socket_functions.o
+ .text.InitSocketFunctionPointers
+                0x0000000000000000      0x834 socket_functions.o
+ .rodata.InitSocketFunctionPointers.str1.4
+                0x0000000000000000      0x243 socket_functions.o
+ .sbss.hostIpAddress
+                0x0000000000000000        0x4 socket_functions.o
+ .comment       0x0000000000000000       0x23 socket_functions.o
+ .eh_frame      0x0000000000000000       0x44 socket_functions.o
+ .text          0x0000000000000000        0x0 padscore_functions.o
+ .data          0x0000000000000000       0x18 padscore_functions.o
+ .bss           0x0000000000000000        0x0 padscore_functions.o
+ .text.InitPadScoreFunctionPointers
+                0x0000000000000000      0x3d0 padscore_functions.o
+ .rodata.InitPadScoreFunctionPointers.str1.4
+                0x0000000000000000      0x116 padscore_functions.o
+ .comment       0x0000000000000000       0x23 padscore_functions.o
+ .eh_frame      0x0000000000000000       0x50 padscore_functions.o
+ .text          0x0000000000000000        0x0 sd_fat_devoptab.o
+ .data          0x0000000000000000        0x0 sd_fat_devoptab.o
+ .bss           0x0000000000000000        0x0 sd_fat_devoptab.o
+ .text.sd_fat_close_r
+                0x0000000000000000       0xcc sd_fat_devoptab.o
+ .text.sd_fat_seek_r
+                0x0000000000000000      0x17c sd_fat_devoptab.o
+ .text.sd_fat_ftruncate_r
+                0x0000000000000000       0xcc sd_fat_devoptab.o
+ .text.sd_fat_fsync_r
+                0x0000000000000000       0xcc sd_fat_devoptab.o
+ .text.sd_fat_link_r
+                0x0000000000000000       0x10 sd_fat_devoptab.o
+ .text.sd_fat_dirclose_r
+                0x0000000000000000       0xd8 sd_fat_devoptab.o
+ .text.sd_fat_dirreset_r
+                0x0000000000000000       0xd8 sd_fat_devoptab.o
+ .text.sd_fat_dirnext_r
+                0x0000000000000000      0x1c4 sd_fat_devoptab.o
+ .text.sd_fat_fstat_r
+                0x0000000000000000      0x168 sd_fat_devoptab.o
+ .text.sd_fat_read_r
+                0x0000000000000000      0x214 sd_fat_devoptab.o
+ .text.sd_fat_write_r
+                0x0000000000000000      0x224 sd_fat_devoptab.o
+ .text.sd_fat_mkdir_r
+                0x0000000000000000      0x1dc sd_fat_devoptab.o
+ .text.sd_fat_chdir_r
+                0x0000000000000000      0x1dc sd_fat_devoptab.o
+ .text.sd_fat_unlink_r
+                0x0000000000000000      0x1dc sd_fat_devoptab.o
+ .text.sd_fat_diropen_r
+                0x0000000000000000      0x264 sd_fat_devoptab.o
+ .text.sd_fat_statvfs_r
+                0x0000000000000000      0x2a0 sd_fat_devoptab.o
+ .text.sd_fat_rename_r
+                0x0000000000000000      0x2c0 sd_fat_devoptab.o
+ .text.sd_fat_stat_r
+                0x0000000000000000      0x2ec sd_fat_devoptab.o
+ .text.sd_fat_open_r
+                0x0000000000000000      0x344 sd_fat_devoptab.o
+ .text.mount_sd_fat
+                0x0000000000000000      0x384 sd_fat_devoptab.o
+ .text.unmount_sd_fat
+                0x0000000000000000      0x1cc sd_fat_devoptab.o
+ .rodata.devops_sd_fat
+                0x0000000000000000       0x70 sd_fat_devoptab.o
+ .rodata.sd_fat_mkdir_r.str1.4
+                0x0000000000000000        0x3 sd_fat_devoptab.o
+ .rodata.sd_fat_open_r.str1.4
+                0x0000000000000000       0x13 sd_fat_devoptab.o
+ .comment       0x0000000000000000       0x23 sd_fat_devoptab.o
+ .eh_frame      0x0000000000000000      0x6f0 sd_fat_devoptab.o
+ .text          0x0000000000000000        0x0 fs_utils.o
+ .data          0x0000000000000000        0x0 fs_utils.o
+ .bss           0x0000000000000000        0x0 fs_utils.o
+ .text.MountFS  0x0000000000000000      0x144 fs_utils.o
+ .text.UmountFS
+                0x0000000000000000       0x14 fs_utils.o
+ .text.LoadFileToMem
+                0x0000000000000000      0x184 fs_utils.o
+ .text.CheckFile
+                0x0000000000000000      0x108 fs_utils.o
+ .text.CreateSubfolder
+                0x0000000000000000      0x210 fs_utils.o
+ .rodata.CheckFile.str1.4
+                0x0000000000000000        0x3 fs_utils.o
+ .comment       0x0000000000000000       0x23 fs_utils.o
+ .eh_frame      0x0000000000000000      0x1a8 fs_utils.o
+ .text          0x0000000000000000        0x0 memory.o
+ .data          0x0000000000000000        0x0 memory.o
+ .bss           0x0000000000000000        0x0 memory.o
+ .text.memoryInitialize
+                0x0000000000000000      0x120 memory.o
+ .text.memoryRelease
+                0x0000000000000000       0xcc memory.o
+ .text.__wrap_malloc
+                0x0000000000000000       0x14 memory.o
+ .text.__wrap_memalign
+                0x0000000000000000       0x2c memory.o
+ .text.__wrap_malloc_usable_size
+                0x0000000000000000        0xc memory.o
+ .text.__wrap_realloc
+                0x0000000000000000       0x9c memory.o
+ .text.__wrap__malloc_r
+                0x0000000000000000       0x18 memory.o
+ .text.__wrap__calloc_r
+                0x0000000000000000       0x60 memory.o
+ .text.__wrap__memalign_r
+                0x0000000000000000       0x24 memory.o
+ .text.__wrap__free_r
+                0x0000000000000000       0x1c memory.o
+ .text.__wrap__malloc_usable_size_r
+                0x0000000000000000        0xc memory.o
+ .text.__wrap__realloc_r
+                0x0000000000000000       0x9c memory.o
+ .text.MEM2_alloc
+                0x0000000000000000       0x20 memory.o
+ .text.MEM2_free
+                0x0000000000000000       0x1c memory.o
+ .text.MEM1_alloc
+                0x0000000000000000       0x2c memory.o
+ .text.MEM1_free
+                0x0000000000000000       0x1c memory.o
+ .text.MEMBucket_alloc
+                0x0000000000000000       0x2c memory.o
+ .text.MEMBucket_free
+                0x0000000000000000       0x1c memory.o
+ .data.bucket_heap
+                0x0000000000000000        0x4 memory.o
+ .data.mem1_heap
+                0x0000000000000000        0x4 memory.o
+ .comment       0x0000000000000000       0x23 memory.o
+ .eh_frame      0x0000000000000000      0x240 memory.o
+ .text          0x0000000000000000        0x0 logger.o
+ .data          0x0000000000000000        0x0 logger.o
+ .bss           0x0000000000000000        0x0 logger.o
+ .comment       0x0000000000000000       0x23 logger.o
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.null_write
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.setDefaultDevice
+                0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.FindDevice
+                0x0000000000000000      0x130 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.RemoveDevice
+                0x0000000000000000       0x44 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.AddDevice
+                0x0000000000000000      0x118 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text.GetDeviceOpTab
+                0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .data.defaultDevice
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .data.devoptab_list
+                0x0000000000000000       0x40 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .rodata.AddDevice.str1.4
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .rodata.dotab_stdnull
+                0x0000000000000000       0x70 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .eh_frame      0x0000000000000000      0x124 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(iosupport.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .text.mkdir    0x0000000000000000       0xa4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .eh_frame      0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(mkdir.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.currentlocale
+                0x0000000000000000       0xe8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.__loadlocale
+                0x0000000000000000      0x860 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.__loadlocale
+                0x0000000000000000       0xd4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.__get_locale_env
+                0x0000000000000000       0xb8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000000      0x458 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x0000000000000000       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.__locale_ctype_ptr_l
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.__locale_ctype_ptr
+                0x0000000000000000       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text.setlocale
+                0x0000000000000000       0x14 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .bss.global_locale_string
+                0x0000000000000000       0xe7 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .bss.new_categories.3834
+                0x0000000000000000       0xe0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .bss.saved_categories.3835
+                0x0000000000000000       0xe0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .data.__default_locale
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .data.__global_locale
+                0x0000000000000000      0x16c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.__C_locale
+                0x0000000000000000      0x16c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.__get_locale_env.str1.4
+                0x0000000000000000        0xd /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.__loadlocale.str1.4
+                0x0000000000000000       0xcf /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.categories
+                0x0000000000000000       0x1c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.currentlocale.str1.4
+                0x0000000000000000        0x2 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .rodata.str1.4
+                0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .sbss._PathLocale
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .eh_frame      0x0000000000000000      0x280 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0000000000000000       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text.__ascii_mbtowc
+                0x0000000000000000       0x84 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text.__utf8_mbtowc
+                0x0000000000000000      0x5dc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text.__sjis_mbtowc
+                0x0000000000000000      0x1b0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text.__eucjp_mbtowc
+                0x0000000000000000      0x250 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text.__jis_mbtowc
+                0x0000000000000000      0x25c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .rodata.__jis_mbtowc
+                0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .rodata.JIS_action_table
+                0x0000000000000000       0x48 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .rodata.JIS_state_table
+                0x0000000000000000       0x48 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .eh_frame      0x0000000000000000      0x15c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mbtowc_r.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000000000      0x100 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .text.rand     0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .eh_frame      0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .text._snprintf_r
+                0x0000000000000000      0x160 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .text.snprintf
+                0x0000000000000000      0x168 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .eh_frame      0x0000000000000000       0xa4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-snprintf.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .text.strcasecmp
+                0x0000000000000000       0xbc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .eh_frame      0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .text.strcat   0x0000000000000000       0x78 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .eh_frame      0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .text.strchr   0x0000000000000000      0x160 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .text.strcmp   0x0000000000000000       0xa8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .text.strcpy   0x0000000000000000       0x84 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcpy.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .text.strlcpy  0x0000000000000000       0x84 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000000000       0x8c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .text.strncasecmp
+                0x0000000000000000       0xd0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .text.strncmp  0x0000000000000000      0x10c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .text.strncpy  0x0000000000000000       0xf0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncpy.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .text.strrchr  0x0000000000000000       0x6c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .eh_frame      0x0000000000000000       0x48 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strrchr.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .text.strtok   0x0000000000000000       0x14 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .text.__strtok_r
+                0x0000000000000000       0xc8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .text.strtok_r
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .eh_frame      0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtok_r.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .text._strtol_l.isra.0
+                0x0000000000000000      0x254 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x0000000000000000       0x1c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .text.strtol   0x0000000000000000       0x40 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .eh_frame      0x0000000000000000       0x94 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strtol.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .text._svfprintf_r
+                0x0000000000000000     0x22e8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata._svfprintf_r
+                0x0000000000000000      0x164 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata._svfprintf_r.cst4
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata._svfprintf_r.cst8
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata._svfprintf_r.str1.4
+                0x0000000000000000       0x42 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata.blanks.5777
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .rodata.zeroes.5778
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .eh_frame      0x0000000000000000      0x168 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfprintf.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .text.close    0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysclose.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .text.lseek    0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-syslseek.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .text.open     0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .eh_frame      0x0000000000000000       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysopen.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .text.read     0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysread.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .text.stat     0x0000000000000000       0x14 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-sysstat.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+ .eh_frame      0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .text._wcrtomb_r
+                0x0000000000000000       0xe4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x0000000000000000       0xe8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .eh_frame      0x0000000000000000       0x84 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcrtomb.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .text._wcsrtombs_r
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .text.wcsrtombs
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .eh_frame      0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsrtombs.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0000000000000000       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text.__ascii_wctomb
+                0x0000000000000000       0x40 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text.__utf8_wctomb
+                0x0000000000000000      0x118 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text.__sjis_wctomb
+                0x0000000000000000       0x94 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text.__eucjp_wctomb
+                0x0000000000000000       0xc0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text.__jis_wctomb
+                0x0000000000000000       0xc8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .eh_frame      0x0000000000000000       0x8c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wctomb_r.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .text.__set_ctype
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .rodata._ctype_
+                0x0000000000000000      0x101 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-ctype_.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .text.quorem   0x0000000000000000      0x240 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x0000000000000000     0x1338 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .rodata._dtoa_r.cst4
+                0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .rodata._dtoa_r.cst8
+                0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .rodata._dtoa_r.str1.4
+                0x0000000000000000       0x12 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .eh_frame      0x0000000000000000      0x1ec /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-dtoa.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .text._findenv_r
+                0x0000000000000000      0x144 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .text._getenv_r
+                0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .eh_frame      0x0000000000000000       0xac /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-getenv_r.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .text._localeconv_r
+                0x0000000000000000       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x0000000000000000       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-localeconv.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .text.memchr   0x0000000000000000       0xec /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memchr.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text._Balloc  0x0000000000000000       0xe0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text._Bfree   0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__multadd
+                0x0000000000000000      0x138 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__s2b    0x0000000000000000      0x138 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__hi0bits
+                0x0000000000000000       0x6c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__lo0bits
+                0x0000000000000000       0xbc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__i2b    0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__multiply
+                0x0000000000000000      0x248 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__pow5mult
+                0x0000000000000000      0x16c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__lshift
+                0x0000000000000000      0x15c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__mcmp   0x0000000000000000       0x58 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__mdiff  0x0000000000000000      0x1f0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__ulp    0x0000000000000000       0x9c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__b2d    0x0000000000000000      0x184 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__d2b    0x0000000000000000      0x18c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__ratio  0x0000000000000000       0xd0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__copybits
+                0x0000000000000000       0x90 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text.__any_on
+                0x0000000000000000       0x88 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .rodata.__mprec_bigtens
+                0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tens
+                0x0000000000000000       0xc8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .rodata._mprec_log10.cst4
+                0x0000000000000000        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .rodata.p05.4564
+                0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .eh_frame      0x0000000000000000      0x388 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-mprec.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000      0x24c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .text._svfiprintf_r
+                0x0000000000000000     0x1598 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r
+                0x0000000000000000      0x164 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .rodata._svfiprintf_r.str1.4
+                0x0000000000000000       0x2f /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .rodata.blanks.5757
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .rodata.zeroes.5758
+                0x0000000000000000       0x10 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .eh_frame      0x0000000000000000      0x198 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-svfiprintf.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .text._wcsnrtombs_l
+                0x0000000000000000      0x1e4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .text._wcsnrtombs_r
+                0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .text.wcsnrtombs
+                0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .eh_frame      0x0000000000000000       0xe4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-wcsnrtombs.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .bss.initial_env
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .sdata.environ
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-environ.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .text.__env_lock
+                0x0000000000000000       0x58 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .text.__env_unlock
+                0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .bss.__env_recursive_mutex
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .eh_frame      0x0000000000000000       0x58 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-envlock.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000      0x138 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .text._close_r
+                0x0000000000000000       0xec /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .eh_frame      0x0000000000000000       0x68 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(close.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+ .eh_frame      0x0000000000000000       0x28 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .text._lseek_r
+                0x0000000000000000       0xe0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(lseek.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .text._open_r  0x0000000000000000      0x120 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .eh_frame      0x0000000000000000       0x7c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(open.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .text._read_r  0x0000000000000000       0xc4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .eh_frame      0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(read.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .text._stat_r  0x0000000000000000       0xb4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .eh_frame      0x0000000000000000       0x50 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(stat.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__libc_lock_init
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__libc_lock_close
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__libc_lock_release
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__libc_lock_acquire
+                0x0000000000000000       0x20 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__malloc_lock
+                0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text.__malloc_unlock
+                0x0000000000000000       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .eh_frame      0x0000000000000000       0x8c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.__free_handle
+                0x0000000000000000       0x3c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.__release_handle
+                0x0000000000000000       0xe4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.__alloc_handle
+                0x0000000000000000      0x110 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.__get_handle
+                0x0000000000000000       0x24 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.dup      0x0000000000000000       0xe0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text.dup2     0x0000000000000000      0x1c8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .bss.__hndl_lock
+                0x0000000000000000        0x4 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .data.__stderr_handle
+                0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .data.__stdin_handle
+                0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .data.__stdout_handle
+                0x0000000000000000        0xc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .data.handles  0x0000000000000000     0x1000 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .eh_frame      0x0000000000000000      0x114 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(handle_manager.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x0000000000000000      0x3bc /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000000000       0x48 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+ .text.__umoddi3
+                0x0000000000000000      0x370 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000000       0x23 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+ .eh_frame      0x0000000000000000       0x4c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a(_umoddi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD gol.o
+LOAD draw.o
+LOAD pong.o
+LOAD program.o
+LOAD ax_functions.o
+LOAD os_functions.o
+LOAD vpad_functions.o
+LOAD gx2_functions.o
+LOAD sys_functions.o
+LOAD fs_functions.o
+LOAD socket_functions.o
+LOAD padscore_functions.o
+LOAD sd_fat_devoptab.o
+LOAD fs_utils.o
+LOAD memory.o
+LOAD logger.o
+LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a
+LOAD /opt/devkitpro/portlibs/ppc/lib/libgd.a
+LOAD /opt/devkitpro/portlibs/ppc/lib/libpng.a
+LOAD /opt/devkitpro/portlibs/ppc/lib/libz.a
+LOAD /opt/devkitpro/portlibs/ppc/lib/libfreetype.a
+LOAD /opt/devkitpro/portlibs/ppc/lib/libvorbisidec.a
+LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a
+START GROUP
+LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a
+LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a
+END GROUP
+LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a
+                0x0000000000802000                . = 0x802000
+
+.text           0x0000000000802000     0x224c
+ *(.text*)
+ .text.init     0x0000000000802000      0x71c gol.o
+                0x0000000000802000                init
+ .text.renderGrid
+                0x000000000080271c      0x2a4 gol.o
+                0x000000000080271c                renderGrid
+ .text.pointToGrid
+                0x00000000008029c0      0x118 gol.o
+                0x00000000008029c0                pointToGrid
+ .text.enableCell
+                0x0000000000802ad8       0x1c gol.o
+                0x0000000000802ad8                enableCell
+ .text.cycleColor
+                0x0000000000802af4       0x40 gol.o
+                0x0000000000802af4                cycleColor
+ .text.flipBuffers
+                0x0000000000802b34       0xb0 draw.o
+                0x0000000000802b34                flipBuffers
+ .text.fillScreen
+                0x0000000000802be4       0x6c draw.o
+                0x0000000000802be4                fillScreen
+ .text.drawFillRect
+                0x0000000000802c50      0x110 draw.o
+                0x0000000000802c50                drawFillRect
+ .text._entryPoint
+                0x0000000000802d60      0x2f4 program.o
+                0x0000000000802d60                _entryPoint
+ .text.InitOSFunctionPointers
+                0x0000000000803054      0xe68 os_functions.o
+                0x0000000000803054                InitOSFunctionPointers
+ .text.InitVPadFunctionPointers
+                0x0000000000803ebc      0x15c vpad_functions.o
+                0x0000000000803ebc                InitVPadFunctionPointers
+ .text.__wrap_free
+                0x0000000000804018       0x1c memory.o
+                0x0000000000804018                __wrap_free
+ .text.__wrap_calloc
+                0x0000000000804034       0x60 memory.o
+                0x0000000000804034                __wrap_calloc
+ .text.memset   0x0000000000804094      0x104 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+                0x0000000000804094                memset
+ .text.srand    0x0000000000804198       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+                0x0000000000804198                srand
+ .text.time     0x00000000008041b0       0x70 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+                0x00000000008041b0                time
+ .text._gettimeofday_r
+                0x0000000000804220       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+                0x0000000000804220                _gettimeofday_r
+
+.rodata         0x0000000000804250      0x8d8
+ *(.rodata*)
+ .rodata.pointToGrid.cst4
+                0x0000000000804250        0xc gol.o
+ *fill*         0x000000000080425c        0x4 
+ .rodata.pointToGrid.cst8
+                0x0000000000804260       0x10 gol.o
+ .rodata.InitOSFunctionPointers.str1.4
+                0x0000000000804270      0x85a os_functions.o
+ *fill*         0x0000000000804aca        0x2 
+ .rodata.InitVPadFunctionPointers.str1.4
+                0x0000000000804acc       0x5c vpad_functions.o
+                                         0x5a (size before relaxing)
+
+.data           0x0000000000804b28      0x510
+ *(.data*)
+ .data          0x0000000000804b28       0xb4 os_functions.o
+                0x0000000000804b28                OSDynLoad_Acquire
+                0x0000000000804b2c                OSDynLoad_FindExport
+                0x0000000000804b30                OSFatal
+                0x0000000000804b34                OSGetTitleID
+                0x0000000000804b38                OSSetExceptionCallback
+                0x0000000000804b3c                DCFlushRange
+                0x0000000000804b40                ICInvalidateRange
+                0x0000000000804b44                OSEffectiveToPhysical
+                0x0000000000804b48                __os_snprintf
+                0x0000000000804b4c                __Exit
+                0x0000000000804b50                OSScreenInit
+                0x0000000000804b54                OSScreenGetBufferSizeEx
+                0x0000000000804b58                OSScreenSetBufferEx
+                0x0000000000804b5c                OSScreenClearBufferEx
+                0x0000000000804b60                OSScreenFlipBuffersEx
+                0x0000000000804b64                OSScreenPutFontEx
+                0x0000000000804b68                OSScreenEnableEx
+                0x0000000000804b6c                OSScreenPutPixelEx
+                0x0000000000804b70                OSCreateThread
+                0x0000000000804b74                OSResumeThread
+                0x0000000000804b78                OSSuspendThread
+                0x0000000000804b7c                OSIsThreadTerminated
+                0x0000000000804b80                OSIsThreadSuspended
+                0x0000000000804b84                OSJoinThread
+                0x0000000000804b88                OSSetThreadPriority
+                0x0000000000804b8c                OSDetachThread
+                0x0000000000804b90                OSSleepTicks
+                0x0000000000804b94                OSGetTick
+                0x0000000000804b98                OSInitMutex
+                0x0000000000804b9c                OSLockMutex
+                0x0000000000804ba0                OSUnlockMutex
+                0x0000000000804ba4                OSTryLockMutex
+                0x0000000000804ba8                pMEMAllocFromDefaultHeapEx
+                0x0000000000804bac                pMEMAllocFromDefaultHeap
+                0x0000000000804bb0                pMEMFreeToDefaultHeap
+                0x0000000000804bb4                MEMGetBaseHeapHandle
+                0x0000000000804bb8                MEMGetAllocatableSizeForFrmHeapEx
+                0x0000000000804bbc                MEMAllocFromFrmHeapEx
+                0x0000000000804bc0                MEMFreeToFrmHeap
+                0x0000000000804bc4                MEMAllocFromExpHeapEx
+                0x0000000000804bc8                MEMCreateExpHeapEx
+                0x0000000000804bcc                MEMDestroyExpHeap
+                0x0000000000804bd0                MEMFreeToExpHeap
+                0x0000000000804bd4                LiWaitIopCompleteWithInterrupts
+                0x0000000000804bd8                LiWaitIopComplete
+ .data          0x0000000000804bdc        0x8 vpad_functions.o
+                0x0000000000804bdc                VPADInit
+                0x0000000000804be0                VPADRead
+ *fill*         0x0000000000804be4        0x4 
+ .data.impure_data
+                0x0000000000804be8      0x448 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+                0x0000000000805030                __sdata_start = .
+ *(.sdata*)
+ .sdata         0x0000000000805030        0x0 gol.o
+                0x000000000080d030                _SDA_BASE_
+ .sdata2        0x0000000000805030        0x0 gol.o
+                0x000000000080d030                _SDA2_BASE_
+ .sdata         0x0000000000805030        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+                0x0000000000805030                _global_impure_ptr
+                0x0000000000805034                _impure_ptr
+                0x0000000000805038                __sdata_end = .
+                0x0000000000805038                __sdata2_start = .
+ *(.sdata2*)
+                0x0000000000805038                __sdata2_end = .
+
+.bss            0x0000000000805038       0x38
+                0x0000000000805038                __bss_start = .
+ *(.bss*)
+ .bss.__syscalls
+                0x0000000000805038       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+                0x0000000000805038                __syscalls
+ *(.sbss*)
+ .sbss.coreinit_handle
+                0x000000000080506c        0x4 os_functions.o
+                0x000000000080506c                coreinit_handle
+ *(COMMON)
+                0x0000000000805070                __bss_end = .
+                0x0000000000805070                __CODE_END = .
+
+/DISCARD/
+ *(*)
+OUTPUT(../gol_dbg.elf elf32-powerpc)

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "os_functions.h": "c",
+        "cmath": "c"
+    }
+}
