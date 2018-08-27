@@ -62,7 +62,6 @@ struct golGlobals
 	struct golCell **cells;
 	struct golCell **prevCells;
 	int cellSize;
-	// struct rgb aliveColor;
 	struct rgb colors[7];
 	int aliveColor;
 	struct vec2 gridPos;
@@ -71,14 +70,12 @@ struct golGlobals
 
 void init (struct golGlobals *gameState);
 void renderGrid(struct golGlobals *gameState, bool advanceGeneration);
-// void randomizeColors(struct golGlobals *gameState);
-// void randomizeColor(struct golGlobals *gameState, int x, int y);
 struct vec2 pointToGrid(struct golGlobals *gameState, VPADData *vpad);
 void enableCell(struct golGlobals *gameState, int x, int y, bool alive);
-// void advanceGeneration(struct golGlobals *gameState);
 
 
 // Color Stuff
+typedef int color_t;
 #define COLOR_RED 0
 #define COLOR_ORANGE 1
 #define COLOR_YELLOW 2
@@ -87,10 +84,11 @@ void enableCell(struct golGlobals *gameState, int x, int y, bool alive);
 #define COLOR_BLUE 5
 #define COLOR_MAGENTA 6
 
+typedef int cycleDirection_t;
 #define CYCLE_FORWARD 0
 #define CYCLE_BACKWARD 1
 
-struct rgb convertColor(int colorCode);
-void cycleColor(struct golGlobals *gameState, int direction);
+struct rgb convertColor(color_t colorCode);
+void cycleColor(struct golGlobals *gameState, cycleDirection_t direction);
 
 #endif /* GOL_H */

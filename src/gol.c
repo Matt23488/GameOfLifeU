@@ -126,7 +126,7 @@ void renderGrid(struct golGlobals *gameState, bool advanceGeneration)
             }
 
             // TODO: added the true clause. Need to limit FPS, this optimization made it too fast!
-            if (!advanceGeneration || gameState->cells[y][x].isAlive != gameState->prevCells[y][x].isAlive || true)
+            if (true || !advanceGeneration || gameState->cells[y][x].isAlive != gameState->prevCells[y][x].isAlive)
             {
                 cell = &gameState->cells[y][x];
                 if (cell->isAlive)
@@ -185,54 +185,6 @@ void enableCell(struct golGlobals *gameState, int x, int y, bool alive)
     gameState->cells[y][x].isAlive = alive;
 }
 
-void advanceGeneration(struct golGlobals *gameState)
-{
-    struct golCell **temp = gameState->cells;
-    gameState->cells = gameState->prevCells;
-    gameState->prevCells = temp;
-
-    int aliveNeighborCount;
-    //char buffer[255];
-    for (int y = 0; y < gameState->rows; y++)
-    {
-        for (int x = 0; x < gameState->cols; x++)
-        {
-            // fillScreen(0,0,0,0);
-            // __os_snprintf(buffer, 255, "%d\n%d\n%d", x, y, gameState->prevCells[y][x].neighborCount);
-            // drawString(0, 0, buffer);
-            // flipBuffers();
-            aliveNeighborCount = 0;
-            for (int i = 0; i < gameState->prevCells[y][x].neighborCount; i++)
-            {
-                if (gameState->prevCells[y][x].neighbors[i]->isAlive)
-                    aliveNeighborCount++;
-            }
-            // fillScreen(0,0,0,0);
-            // __os_snprintf(buffer, 255, "%d\n%d\n%d", x, y, aliveNeighborCount);
-            // drawString(0, 0, buffer);
-            // flipBuffers();
-
-            // if (gameState->cells[y][x].isAlive && aliveNeighborCount < 2)
-            //     gameState->cells[y][x].isAlive = false;
-            if (gameState->prevCells[y][x].isAlive)
-            {
-                // if (aliveNeighborCount < 2 || aliveNeighborCount > 3)
-                //     gameState->cells[y][x].isAlive = false;
-                // else
-                //     gameSTate->
-                gameState->cells[y][x].isAlive = aliveNeighborCount > 1 && aliveNeighborCount < 4;
-
-            }
-            else
-            {
-                // if (aliveNeighborCount == 3)
-                //     gameState->cells[y][x].isAlive = true;
-                gameState->cells[y][x].isAlive = aliveNeighborCount == 3;
-            }
-        }
-    }
-}
-
 struct rgb convertColor(int colorCode)
 {
     struct rgb color;
@@ -268,15 +220,6 @@ struct rgb convertColor(int colorCode)
             color.b = 255;
             break;
     }
-    
-    // if (colorCode == COLOR_RED || colorCode == COLOR_ORANGE || colorCode == COLOR_YELLOW || colorCode == COLOR_MAGENTA)
-    //     color.r = 255;
-    // if (colorCode == COLOR_ORANGE)
-    //     color.g = 127;
-    // if (colorCode == COLOR_YELLOW || colorCode == COLOR_GREEN || colorCode == COLOR_CYAN)
-    //     color.g = 255;
-    // if (colorCode = COLOR_CYAN || colorCode == COLOR_BLUE || colorCode == COLOR_MAGENTA)
-    //     color.b = 255;
 
     return color;
 }

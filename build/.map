@@ -23,7 +23,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcasecmp.o)
                               /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strcasecmp)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcat.o)
-                              program.o (strcat)
+                              /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strcat)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strchr.o)
                               sd_fat_devoptab.o (strchr)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strcmp.o)
@@ -33,7 +33,7 @@ Archive member included to satisfy reference by file (symbol)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlcpy.o)
                               /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strlcpy)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strlen.o)
-                              program.o (strlen)
+                              sd_fat_devoptab.o (strlen)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncasecmp.o)
                               /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-locale.o) (strncasecmp)
 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-strncmp.o)
@@ -116,18 +116,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 gol.o
  .data          0x0000000000000000        0x0 gol.o
  .bss           0x0000000000000000        0x0 gol.o
- .text.advanceGeneration
-                0x0000000000000000      0x190 gol.o
  .text.convertColor
                 0x0000000000000000       0x68 gol.o
- .rodata.CSWTCH.109
+ .rodata.CSWTCH.100
                 0x0000000000000000       0x1c gol.o
- .rodata.CSWTCH.110
+ .rodata.CSWTCH.98
                 0x0000000000000000       0x1c gol.o
- .rodata.CSWTCH.111
+ .rodata.CSWTCH.99
                 0x0000000000000000       0x1c gol.o
  .comment       0x0000000000000000       0x23 gol.o
- .eh_frame      0x0000000000000000      0x12c gol.o
+ .eh_frame      0x0000000000000000      0x10c gol.o
  .gnu.attributes
                 0x0000000000000000       0x12 gol.o
  .text          0x0000000000000000        0x0 draw.o
@@ -198,14 +196,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 program.o
  .data          0x0000000000000000        0x0 program.o
  .bss           0x0000000000000000        0x0 program.o
- .text.appendIfButtonPressed
-                0x0000000000000000       0x70 program.o
- .text.printButtons
-                0x0000000000000000      0x568 program.o
- .rodata.printButtons.str1.4
-                0x0000000000000000       0x47 program.o
  .comment       0x0000000000000000       0x23 program.o
- .eh_frame      0x0000000000000000       0xa0 program.o
+ .eh_frame      0x0000000000000000       0x44 program.o
  .gnu.attributes
                 0x0000000000000000       0x10 program.o
  .text          0x0000000000000000        0x0 ax_functions.o
