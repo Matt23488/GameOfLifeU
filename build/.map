@@ -120,12 +120,12 @@ Discarded input sections
                 0x0000000000000000       0x68 gol.o
  .rodata.CSWTCH.100
                 0x0000000000000000       0x1c gol.o
- .rodata.CSWTCH.98
+ .rodata.CSWTCH.101
                 0x0000000000000000       0x1c gol.o
- .rodata.CSWTCH.99
+ .rodata.CSWTCH.102
                 0x0000000000000000       0x1c gol.o
  .comment       0x0000000000000000       0x23 gol.o
- .eh_frame      0x0000000000000000      0x10c gol.o
+ .eh_frame      0x0000000000000000      0x120 gol.o
  .gnu.attributes
                 0x0000000000000000       0x12 gol.o
  .text          0x0000000000000000        0x0 draw.o
@@ -984,151 +984,154 @@ END GROUP
 LOAD /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/libgcc.a
                 0x0000000000802000                . = 0x802000
 
-.text           0x0000000000802000     0x224c
+.text           0x0000000000802000     0x225c
  *(.text*)
  .text.init     0x0000000000802000      0x71c gol.o
                 0x0000000000802000                init
  .text.renderGrid
                 0x000000000080271c      0x2a4 gol.o
                 0x000000000080271c                renderGrid
+ .text.clearGrid
+                0x00000000008029c0       0x5c gol.o
+                0x00000000008029c0                clearGrid
  .text.pointToGrid
-                0x00000000008029c0      0x118 gol.o
-                0x00000000008029c0                pointToGrid
+                0x0000000000802a1c      0x118 gol.o
+                0x0000000000802a1c                pointToGrid
  .text.enableCell
-                0x0000000000802ad8       0x1c gol.o
-                0x0000000000802ad8                enableCell
+                0x0000000000802b34       0x1c gol.o
+                0x0000000000802b34                enableCell
  .text.cycleColor
-                0x0000000000802af4       0x40 gol.o
-                0x0000000000802af4                cycleColor
+                0x0000000000802b50       0x40 gol.o
+                0x0000000000802b50                cycleColor
  .text.flipBuffers
-                0x0000000000802b34       0xb0 draw.o
-                0x0000000000802b34                flipBuffers
+                0x0000000000802b90       0xb0 draw.o
+                0x0000000000802b90                flipBuffers
  .text.fillScreen
-                0x0000000000802be4       0x6c draw.o
-                0x0000000000802be4                fillScreen
+                0x0000000000802c40       0x6c draw.o
+                0x0000000000802c40                fillScreen
  .text.drawFillRect
-                0x0000000000802c50      0x110 draw.o
-                0x0000000000802c50                drawFillRect
+                0x0000000000802cac      0x110 draw.o
+                0x0000000000802cac                drawFillRect
  .text._entryPoint
-                0x0000000000802d60      0x2f4 program.o
-                0x0000000000802d60                _entryPoint
+                0x0000000000802dbc      0x2a8 program.o
+                0x0000000000802dbc                _entryPoint
  .text.InitOSFunctionPointers
-                0x0000000000803054      0xe68 os_functions.o
-                0x0000000000803054                InitOSFunctionPointers
+                0x0000000000803064      0xe68 os_functions.o
+                0x0000000000803064                InitOSFunctionPointers
  .text.InitVPadFunctionPointers
-                0x0000000000803ebc      0x15c vpad_functions.o
-                0x0000000000803ebc                InitVPadFunctionPointers
+                0x0000000000803ecc      0x15c vpad_functions.o
+                0x0000000000803ecc                InitVPadFunctionPointers
  .text.__wrap_free
-                0x0000000000804018       0x1c memory.o
-                0x0000000000804018                __wrap_free
+                0x0000000000804028       0x1c memory.o
+                0x0000000000804028                __wrap_free
  .text.__wrap_calloc
-                0x0000000000804034       0x60 memory.o
-                0x0000000000804034                __wrap_calloc
- .text.memset   0x0000000000804094      0x104 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
-                0x0000000000804094                memset
- .text.srand    0x0000000000804198       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
-                0x0000000000804198                srand
- .text.time     0x00000000008041b0       0x70 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
-                0x00000000008041b0                time
+                0x0000000000804044       0x60 memory.o
+                0x0000000000804044                __wrap_calloc
+ .text.memset   0x00000000008040a4      0x104 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-memset.o)
+                0x00000000008040a4                memset
+ .text.srand    0x00000000008041a8       0x18 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-rand.o)
+                0x00000000008041a8                srand
+ .text.time     0x00000000008041c0       0x70 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-time.o)
+                0x00000000008041c0                time
  .text._gettimeofday_r
-                0x0000000000804220       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
-                0x0000000000804220                _gettimeofday_r
+                0x0000000000804230       0x2c /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(gettod.o)
+                0x0000000000804230                _gettimeofday_r
 
-.rodata         0x0000000000804250      0x8d8
+.rodata         0x0000000000804260      0x8d8
  *(.rodata*)
  .rodata.pointToGrid.cst4
-                0x0000000000804250        0xc gol.o
- *fill*         0x000000000080425c        0x4 
+                0x0000000000804260        0xc gol.o
+ *fill*         0x000000000080426c        0x4 
  .rodata.pointToGrid.cst8
-                0x0000000000804260       0x10 gol.o
+                0x0000000000804270       0x10 gol.o
  .rodata.InitOSFunctionPointers.str1.4
-                0x0000000000804270      0x85a os_functions.o
- *fill*         0x0000000000804aca        0x2 
+                0x0000000000804280      0x85a os_functions.o
+ *fill*         0x0000000000804ada        0x2 
  .rodata.InitVPadFunctionPointers.str1.4
-                0x0000000000804acc       0x5c vpad_functions.o
+                0x0000000000804adc       0x5c vpad_functions.o
                                          0x5a (size before relaxing)
 
-.data           0x0000000000804b28      0x510
+.data           0x0000000000804b38      0x510
  *(.data*)
- .data          0x0000000000804b28       0xb4 os_functions.o
-                0x0000000000804b28                OSDynLoad_Acquire
-                0x0000000000804b2c                OSDynLoad_FindExport
-                0x0000000000804b30                OSFatal
-                0x0000000000804b34                OSGetTitleID
-                0x0000000000804b38                OSSetExceptionCallback
-                0x0000000000804b3c                DCFlushRange
-                0x0000000000804b40                ICInvalidateRange
-                0x0000000000804b44                OSEffectiveToPhysical
-                0x0000000000804b48                __os_snprintf
-                0x0000000000804b4c                __Exit
-                0x0000000000804b50                OSScreenInit
-                0x0000000000804b54                OSScreenGetBufferSizeEx
-                0x0000000000804b58                OSScreenSetBufferEx
-                0x0000000000804b5c                OSScreenClearBufferEx
-                0x0000000000804b60                OSScreenFlipBuffersEx
-                0x0000000000804b64                OSScreenPutFontEx
-                0x0000000000804b68                OSScreenEnableEx
-                0x0000000000804b6c                OSScreenPutPixelEx
-                0x0000000000804b70                OSCreateThread
-                0x0000000000804b74                OSResumeThread
-                0x0000000000804b78                OSSuspendThread
-                0x0000000000804b7c                OSIsThreadTerminated
-                0x0000000000804b80                OSIsThreadSuspended
-                0x0000000000804b84                OSJoinThread
-                0x0000000000804b88                OSSetThreadPriority
-                0x0000000000804b8c                OSDetachThread
-                0x0000000000804b90                OSSleepTicks
-                0x0000000000804b94                OSGetTick
-                0x0000000000804b98                OSInitMutex
-                0x0000000000804b9c                OSLockMutex
-                0x0000000000804ba0                OSUnlockMutex
-                0x0000000000804ba4                OSTryLockMutex
-                0x0000000000804ba8                pMEMAllocFromDefaultHeapEx
-                0x0000000000804bac                pMEMAllocFromDefaultHeap
-                0x0000000000804bb0                pMEMFreeToDefaultHeap
-                0x0000000000804bb4                MEMGetBaseHeapHandle
-                0x0000000000804bb8                MEMGetAllocatableSizeForFrmHeapEx
-                0x0000000000804bbc                MEMAllocFromFrmHeapEx
-                0x0000000000804bc0                MEMFreeToFrmHeap
-                0x0000000000804bc4                MEMAllocFromExpHeapEx
-                0x0000000000804bc8                MEMCreateExpHeapEx
-                0x0000000000804bcc                MEMDestroyExpHeap
-                0x0000000000804bd0                MEMFreeToExpHeap
-                0x0000000000804bd4                LiWaitIopCompleteWithInterrupts
-                0x0000000000804bd8                LiWaitIopComplete
- .data          0x0000000000804bdc        0x8 vpad_functions.o
-                0x0000000000804bdc                VPADInit
-                0x0000000000804be0                VPADRead
- *fill*         0x0000000000804be4        0x4 
+ .data          0x0000000000804b38       0xb4 os_functions.o
+                0x0000000000804b38                OSDynLoad_Acquire
+                0x0000000000804b3c                OSDynLoad_FindExport
+                0x0000000000804b40                OSFatal
+                0x0000000000804b44                OSGetTitleID
+                0x0000000000804b48                OSSetExceptionCallback
+                0x0000000000804b4c                DCFlushRange
+                0x0000000000804b50                ICInvalidateRange
+                0x0000000000804b54                OSEffectiveToPhysical
+                0x0000000000804b58                __os_snprintf
+                0x0000000000804b5c                __Exit
+                0x0000000000804b60                OSScreenInit
+                0x0000000000804b64                OSScreenGetBufferSizeEx
+                0x0000000000804b68                OSScreenSetBufferEx
+                0x0000000000804b6c                OSScreenClearBufferEx
+                0x0000000000804b70                OSScreenFlipBuffersEx
+                0x0000000000804b74                OSScreenPutFontEx
+                0x0000000000804b78                OSScreenEnableEx
+                0x0000000000804b7c                OSScreenPutPixelEx
+                0x0000000000804b80                OSCreateThread
+                0x0000000000804b84                OSResumeThread
+                0x0000000000804b88                OSSuspendThread
+                0x0000000000804b8c                OSIsThreadTerminated
+                0x0000000000804b90                OSIsThreadSuspended
+                0x0000000000804b94                OSJoinThread
+                0x0000000000804b98                OSSetThreadPriority
+                0x0000000000804b9c                OSDetachThread
+                0x0000000000804ba0                OSSleepTicks
+                0x0000000000804ba4                OSGetTick
+                0x0000000000804ba8                OSInitMutex
+                0x0000000000804bac                OSLockMutex
+                0x0000000000804bb0                OSUnlockMutex
+                0x0000000000804bb4                OSTryLockMutex
+                0x0000000000804bb8                pMEMAllocFromDefaultHeapEx
+                0x0000000000804bbc                pMEMAllocFromDefaultHeap
+                0x0000000000804bc0                pMEMFreeToDefaultHeap
+                0x0000000000804bc4                MEMGetBaseHeapHandle
+                0x0000000000804bc8                MEMGetAllocatableSizeForFrmHeapEx
+                0x0000000000804bcc                MEMAllocFromFrmHeapEx
+                0x0000000000804bd0                MEMFreeToFrmHeap
+                0x0000000000804bd4                MEMAllocFromExpHeapEx
+                0x0000000000804bd8                MEMCreateExpHeapEx
+                0x0000000000804bdc                MEMDestroyExpHeap
+                0x0000000000804be0                MEMFreeToExpHeap
+                0x0000000000804be4                LiWaitIopCompleteWithInterrupts
+                0x0000000000804be8                LiWaitIopComplete
+ .data          0x0000000000804bec        0x8 vpad_functions.o
+                0x0000000000804bec                VPADInit
+                0x0000000000804bf0                VPADRead
+ *fill*         0x0000000000804bf4        0x4 
  .data.impure_data
-                0x0000000000804be8      0x448 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
-                0x0000000000805030                __sdata_start = .
+                0x0000000000804bf8      0x448 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+                0x0000000000805040                __sdata_start = .
  *(.sdata*)
- .sdata         0x0000000000805030        0x0 gol.o
-                0x000000000080d030                _SDA_BASE_
- .sdata2        0x0000000000805030        0x0 gol.o
-                0x000000000080d030                _SDA2_BASE_
- .sdata         0x0000000000805030        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
-                0x0000000000805030                _global_impure_ptr
-                0x0000000000805034                _impure_ptr
-                0x0000000000805038                __sdata_end = .
-                0x0000000000805038                __sdata2_start = .
+ .sdata         0x0000000000805040        0x0 gol.o
+                0x000000000080d040                _SDA_BASE_
+ .sdata2        0x0000000000805040        0x0 gol.o
+                0x000000000080d040                _SDA2_BASE_
+ .sdata         0x0000000000805040        0x8 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libc.a(lib_a-impure.o)
+                0x0000000000805040                _global_impure_ptr
+                0x0000000000805044                _impure_ptr
+                0x0000000000805048                __sdata_end = .
+                0x0000000000805048                __sdata2_start = .
  *(.sdata2*)
-                0x0000000000805038                __sdata2_end = .
+                0x0000000000805048                __sdata2_end = .
 
-.bss            0x0000000000805038       0x38
-                0x0000000000805038                __bss_start = .
+.bss            0x0000000000805048       0x38
+                0x0000000000805048                __bss_start = .
  *(.bss*)
  .bss.__syscalls
-                0x0000000000805038       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
-                0x0000000000805038                __syscalls
+                0x0000000000805048       0x34 /opt/devkitpro/devkitPPC/lib/gcc/powerpc-eabi/8.1.0/../../../../powerpc-eabi/lib/libsysbase.a(syscall_support.o)
+                0x0000000000805048                __syscalls
  *(.sbss*)
  .sbss.coreinit_handle
-                0x000000000080506c        0x4 os_functions.o
-                0x000000000080506c                coreinit_handle
+                0x000000000080507c        0x4 os_functions.o
+                0x000000000080507c                coreinit_handle
  *(COMMON)
-                0x0000000000805070                __bss_end = .
-                0x0000000000805070                __CODE_END = .
+                0x0000000000805080                __bss_end = .
+                0x0000000000805080                __CODE_END = .
 
 /DISCARD/
  *(*)

@@ -331,3 +331,4 @@ ASALocalRun/
 
 # Built Binaries
 *.elf
+build/

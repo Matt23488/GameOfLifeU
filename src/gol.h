@@ -70,6 +70,7 @@ struct golGlobals
 
 void init (struct golGlobals *gameState);
 void renderGrid(struct golGlobals *gameState, bool advanceGeneration);
+void clearGrid(struct golGlobals *gameState);
 struct vec2 pointToGrid(struct golGlobals *gameState, VPADData *vpad);
 void enableCell(struct golGlobals *gameState, int x, int y, bool alive);
 

@@ -153,6 +153,17 @@ void renderGrid(struct golGlobals *gameState, bool advanceGeneration)
     }
 }
 
+void clearGrid(struct golGlobals *gameState)
+{
+    for (int y = 0; y < gameState->rows; y++)
+    {
+        for (int x = 0; x < gameState->cols; x++)
+        {
+            gameState->cells[y][x].isAlive = false;
+        }
+    }
+}
+
 struct vec2 pointToGrid(struct golGlobals *gameState, VPADData *vpad)
 {
     double tx1 = 102;

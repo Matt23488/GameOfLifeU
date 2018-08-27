@@ -55,16 +55,7 @@ int _entryPoint()
 			enableCell(&gameState, cellPt.x, cellPt.y, !(vpad_data.btns_h & BUTTON_ZL));
 		}
 
-		if (vpad_data.btns_d & BUTTON_X)
-		{
-			for (int y = 0; y < gameState.rows; y++)
-			{
-				for (int x = 0; x < gameState.cols; x++)
-				{
-					gameState.cells[y][x].isAlive = false;
-				}
-			}
-		}
+		if (vpad_data.btns_d & BUTTON_X) clearGrid(&gameState);
 		if (vpad_data.btns_d & BUTTON_L || (vpad_data.btns_h & BUTTON_L && vpad_data.btns_h & BUTTON_R)) cycleColor(&gameState, CYCLE_BACKWARD);
 		if (vpad_data.btns_d & BUTTON_R) cycleColor(&gameState, CYCLE_FORWARD);
 
