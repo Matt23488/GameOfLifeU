@@ -31,6 +31,12 @@ typedef int state_t;
 #define STATE_PAUSED  0x1
 #define STATE_PLAYING 0x2
 
+typedef int direction_t;
+#define DIRECTION_UP    0x1
+#define DIRECTION_RIGHT 0x2
+#define DIRECTION_DOWN  0x4
+#define DIRECTION_LEFT  0x8
+
 struct rgb
 {
 	int r;
@@ -57,15 +63,21 @@ struct vec2
 struct golGlobals
 {
 	state_t state;
+	struct vec2 gridPos;
+
 	int rows;
 	int cols;
+
 	struct golCell **cells;
 	struct golCell **prevCells;
+
 	int cellSize;
+	int lineSize;
+
 	struct rgb colors[7];
 	int aliveColor;
-	struct vec2 gridPos;
-	int lineSize;
+
+
 };
 
 void init (struct golGlobals *gameState);
@@ -73,7 +85,7 @@ void renderGrid(struct golGlobals *gameState, bool advanceGeneration);
 void clearGrid(struct golGlobals *gameState);
 struct vec2 pointToGrid(struct golGlobals *gameState, VPADData *vpad);
 void enableCell(struct golGlobals *gameState, int x, int y, bool alive);
-
+void moveGrid(struct golGlobals *gameState, direction_t direction);
 
 // Color Stuff
 typedef int color_t;

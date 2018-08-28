@@ -39,7 +39,10 @@ int _entryPoint()
 	/****************************>            VPAD Loop            <****************************/
 	int error;
 	VPADData vpad_data;
-	// char buffer[255];
+	char buffer[255];
+	float tolerance = 0.1;
+	direction_t moveDirection;
+	bool blankScreen = false;
 	// __os_snprintf(buffer, 255, "%d, %d <- Touch Coords\n%d, %d <- Grid Coords", /*-1, -1,*/ -1, -1, -1, -1);
 	while (1)
 	{
@@ -49,6 +52,24 @@ int _entryPoint()
 		// renderGrid(&gameState);
 		// flipBuffers();
 
+		moveDirection = 0;
+		if (vpad_data.lstick.x > tolerance) moveDirection |= DIRECTION_RIGHT;
+		else if (vpad_data.lstick.x < -tolerance) moveDirection |= DIRECTION_LEFT;
+		if (vpad_data.lstick.y > tolerance) moveDirection |= DIRECTION_UP;
+		else if (vpad_data.lstick.y < -tolerance) moveDirection |= DIRECTION_DOWN;
+		if (moveDirection > 0)
+		{
+			// __os_snprintf(buffer, 255, "moving");
+			// drawString(0, 0, buffer);
+			moveGrid(&gameState, moveDirection);
+			blankScreen = true;
+		}
+		else if (blankScreen)
+		{
+			fillScreen(0,0,0,0);
+			blankScreen = false;
+		}
+
 		if (vpad_data.tpdata.touched)
 		{
 			struct vec2 cellPt = pointToGrid(&gameState, &vpad_data);
@@ -56,12 +77,16 @@ int _entryPoint()
 		}
 
 		if (vpad_data.btns_d & BUTTON_X) clearGrid(&gameState);
-		if (vpad_data.btns_d & BUTTON_L || (vpad_data.btns_h & BUTTON_L && vpad_data.btns_h & BUTTON_R)) cycleColor(&gameState, CYCLE_BACKWARD);
-		if (vpad_data.btns_d & BUTTON_R) cycleColor(&gameState, CYCLE_FORWARD);
+		if (vpad_data.btns_d & BUTTON_L) cycleColor(&gameState, CYCLE_BACKWARD);
+		if (vpad_data.btns_d & BUTTON_R || (vpad_data.btns_h & BUTTON_L && vpad_data.btns_h & BUTTON_R)) cycleColor(&gameState, CYCLE_FORWARD);
 
 		if (vpad_data.btns_h & BUTTON_HOME) break;
 
 		renderGrid(&gameState, vpad_data.btns_d & BUTTON_A || vpad_data.btns_h & BUTTON_B);
+		// fillScreen(0,0,0,0);
+		// __os_snprintf(buffer, 255, "Dir: %d", moveDirection);
+		// __os_snprintf(buffer, 255, "gridPos: %d, %d", gameState.gridPos.x, gameState.gridPos.y);
+		// drawString(0, 0, buffer);
 		flipBuffers();
 	}
 	for (int i = 0; i < gameState.rows; i++)

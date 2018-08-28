@@ -7,8 +7,8 @@
 void init (struct golGlobals *gameState)
 {
 	gameState->state = STATE_INITIAL;
-	gameState->rows = 28;
-	gameState->cols = 50;
+	gameState->rows = 56;//28;
+	gameState->cols = 100;//50;
 	gameState->cells = (struct golCell**)calloc(gameState->rows, sizeof(struct golCell*));
 	gameState->prevCells = (struct golCell**)calloc(gameState->rows, sizeof(struct golCell*));
 	for (int i = 0; i < gameState->rows; i++)
@@ -22,8 +22,8 @@ void init (struct golGlobals *gameState)
         gameState->colors[i] = convertColor(i);
     }
     gameState->aliveColor = 5;
-	gameState->gridPos.x = 2;
-	gameState->gridPos.y = 1;
+	gameState->gridPos.x = 0;//2;
+	gameState->gridPos.y = 0;//1;
 	gameState->lineSize = 5;
 
 	int neighborIndex;
@@ -172,16 +172,15 @@ struct vec2 pointToGrid(struct golGlobals *gameState, VPADData *vpad)
     double tx2 = 3952;
     double ty2 = 3882;
 
-    // TODO: This is hardcoded, probably should make it calculated.
-    double w = 850;
-    double h = 476;
+    double sw = 854;
+    double sh = 480;
 
-    double scaleX = (tx2 - tx1) / w;
-    double scaleY = (ty2 - ty1) / h;
+    double scaleX = (tx2 - tx1) / sw;
+    double scaleY = (ty2 - ty1) / sh;
 
     struct vec2 cellPos;
-    cellPos.x = (int)((double)(vpad->tpdata.x - tx1) / scaleX / (double)(gameState->cellSize + gameState->lineSize));
-    cellPos.y = gameState->rows - (int)((double)(vpad->tpdata.y - ty1) / scaleY / (double)(gameState->cellSize + gameState->lineSize)) - 1;
+    cellPos.x = ((vpad->tpdata.x - tx1) / scaleX - (double)gameState->gridPos.x) / (double)(gameState->cellSize + gameState->lineSize);
+    cellPos.y = (sh - ((vpad->tpdata.y - ty1) / scaleY) - 1 - (double)gameState->gridPos.y) / (double)(gameState->cellSize + gameState->lineSize);
 
     if (cellPos.x < 0) cellPos.x = 0;
     else if (cellPos.x >= gameState->cols) cellPos.x = gameState->cols - 1;
@@ -247,4 +246,25 @@ void cycleColor(struct golGlobals *gameState, int direction)
         gameState->aliveColor--;
         if (gameState->aliveColor == -1) gameState->aliveColor = 6;
     }
+}
+
+// TODO: Thinking of moving all input to its own "class"
+// This will be refactored and made better by using the actual
+// analog data, rather than just the direction.
+void moveGrid(struct golGlobals *gameState, direction_t direction)
+{
+    int deltaX = 0;
+    int deltaY = 0;
+
+    if (direction & DIRECTION_UP) deltaY = 20;
+    else if (direction & DIRECTION_DOWN) deltaY = -20;
+    if (direction & DIRECTION_LEFT) deltaX = 20;
+    else if (direction & DIRECTION_RIGHT) deltaX = -20;
+
+    gameState->gridPos.x += deltaX;
+    gameState->gridPos.y += deltaY;
+
+    if (gameState->gridPos.x > 0) gameState->gridPos.x = 0;
+    if (gameState->gridPos.y > 0) gameState->gridPos.y = 0;
+    fillScreen(0,0,0,0);
 }
