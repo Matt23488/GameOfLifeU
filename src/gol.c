@@ -88,6 +88,12 @@ void init (struct golGlobals *gameState)
 	}
 }
 
+// TODO: Thought of an optimization. Instead of looping through the entire grid,
+//       If I kept another array of golCell* that ONLY contains alive cells, I could
+//       loop through that instead. Well, not an array, but a linked list would be better,
+//       since I would be removing items from the middle. Maybe a doubley-linked list, but
+//       I think I would just keep track of the previous node within the loop. That would save
+//       on memory.
 void renderGrid(struct golGlobals *gameState, bool advanceGeneration)
 {
     if (advanceGeneration)

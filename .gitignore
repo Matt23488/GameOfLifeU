@@ -332,3 +332,6 @@ ASALocalRun/
 # Built Binaries
 *.elf
 build/
+
+# Visual Studio Code
+.vscode/
