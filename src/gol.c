@@ -131,7 +131,9 @@ void renderGrid(struct golGlobals *gameState, bool advanceGeneration)
                 }
             }
 
-            // TODO: added the true clause. Need to limit FPS, this optimization made it too fast!
+            // TODO: fix this. This optimization did NOT make the game too fast. It was a problem with the two buffers.
+            // I'll need to keep a third grid to keep track of the state 2 generations ago and compare that against the
+            // current state, rather than the previous. That should do the trick.
             if (true || !advanceGeneration || gameState->cells[y][x].isAlive != gameState->prevCells[y][x].isAlive)
             {
                 cell = &gameState->cells[y][x];
